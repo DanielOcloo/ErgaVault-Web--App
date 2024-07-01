@@ -7,13 +7,15 @@ import { FormsModule } from '@angular/forms';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { TextFieldComponent } from './reusable-components/text-field/text-field.component';
 import { AuthCarouselComponent } from './reusable-components/auth-carousel/auth-carousel.component';
+import { PasswordFieldComponent } from './reusable-components/password-field/password-field.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPageComponent,
     TextFieldComponent,
-    AuthCarouselComponent
+    AuthCarouselComponent,
+    PasswordFieldComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,10 @@
 <div class="main">
     <div class="row box-area">
         <!-- <left column> -->
-            <div class="left-box-container col-md-6 d-flex d-custom-none">
-                <app-auth-carousel></app-auth-carousel>
-            </div>
-       
+        <div class="left-box-container col-md-6 d-flex d-custom-none">
+            <app-auth-carousel></app-auth-carousel>
+        </div>
+
         <!-- <right column> -->
         <div class="col-md-6 right-box">
             <div class="row align-items-center mb-4">
@@ -12,7 +12,7 @@
                     <h1 class="header-text mb-4">Sign In</h1>
                     <p>Provide your credentials or use your accounts to sign in.</p>
                 </div>
-               
+
                 <!-- Alternate sign-in options -->
                 <button type="button" class="google_btn">
                     <img src="assets/google 1.svg" alt="">
@@ -25,13 +25,18 @@
                 <div class="divider">or</div>
                 <!-- Email and password fields -->
                 <div class="input-group mb-3">
+                    <app-text-field placeholder="Enter your email" label="Email" name="email"
+                        value="email"></app-text-field>
+                    <app-password-field label="Password" placeholder="Enter your password" ></app-password-field>
                     <div class="input_field">
                         <label>Email</label>
-                        <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Enter your email">
+                        <input type="text" class="form-control form-control-lg bg-light fs-6"
+                            placeholder="Enter your email">
                     </div>
                     <div class="input_field">
                         <label>Password</label>
-                        <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Enter your password">
+                        <input type="password" class="form-control form-control-lg bg-light fs-6"
+                            placeholder="Enter your password">
                     </div>
                 </div>
                 <!-- Remember me and Forgot password -->
@@ -50,7 +55,7 @@
                 <div class="bottom-text d-flex justify-content-center">
                     <p>Don't have and account? <a href="/Signup.html">Sign up</a></p>
                 </div>
-                
+
             </div>
         </div>
     </div>

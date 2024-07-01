@@ -1,10 +1,9 @@
 <div class="text-input-container">
     <label *ngIf="label" [for]="name" class="styled-label">{{ label }}</label>
-    <input
+    <input class="styled-input form-control mb-3"
       [type]="type"
       [value]="value"
       [name]="name"
-      class="styled-input form-control"
       [placeholder]="placeholder"
       [disabled]="disabled"
       [(ngModel)]="internalValue"

@@ -129,6 +129,10 @@ app-auth-carousel {
     width: 60px;
 }
 
+app-text-field{
+    width: 100%;
+}
+
 .input_field {
     display: flex;
     flex-direction: column;
