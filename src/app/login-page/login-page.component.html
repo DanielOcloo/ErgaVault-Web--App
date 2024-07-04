@@ -7,7 +7,7 @@
 
         <!-- <right column> -->
         <div class="col-md-6 right-box">
-            <div class="row align-items-center mb-4">
+            <div class="row align-items-center">
                 <div class="header_sub d-flex flex-column align-items-center">
                     <h1 class="header-text mb-4">Sign In</h1>
                     <p>Provide your credentials or use your accounts to sign in.</p>
@@ -24,20 +24,11 @@
                 </button>
                 <div class="divider">or</div>
                 <!-- Email and password fields -->
-                <div class="input-group mb-3">
-                    <app-text-field placeholder="Enter your email" label="Email" name="email"
-                        value="email"></app-text-field>
-                    <app-password-field label="Password" placeholder="Enter your password" ></app-password-field>
-                    <div class="input_field">
-                        <label>Email</label>
-                        <input type="text" class="form-control form-control-lg bg-light fs-6"
-                            placeholder="Enter your email">
-                    </div>
-                    <div class="input_field">
-                        <label>Password</label>
-                        <input type="password" class="form-control form-control-lg bg-light fs-6"
-                            placeholder="Enter your password">
-                    </div>
+                <div class="input-group mb-3 col-12 d-flex flex-column">
+                    <app-email-text-field label="Email" placeholder="Enter your email" name="email"
+                        value="email"></app-email-text-field>
+                    <app-password-field label="Password" placeholder="Enter your password"></app-password-field>
+
                 </div>
                 <!-- Remember me and Forgot password -->
                 <div class="input-group mb-5 justify-content-between">

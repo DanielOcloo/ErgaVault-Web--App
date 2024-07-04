@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EmailFieldComponent } from './email-field.component';
+import { EmailTextFieldComponent } from './email-text-field.component';
 
-describe('EmailFieldComponent', () => {
-  let component: EmailFieldComponent;
-  let fixture: ComponentFixture<EmailFieldComponent>;
+describe('EmailTextFieldComponent', () => {
+  let component: EmailTextFieldComponent;
+  let fixture: ComponentFixture<EmailTextFieldComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [EmailFieldComponent]
+      declarations: [EmailTextFieldComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(EmailFieldComponent);
+    fixture = TestBed.createComponent(EmailTextFieldComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -8,7 +8,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { TextFieldComponent } from './reusable-components/text-field/text-field.component';
 import { AuthCarouselComponent } from './reusable-components/auth-carousel/auth-carousel.component';
 import { PasswordFieldComponent } from './reusable-components/password-field/password-field.component';
-import { EmailFieldComponent } from './email-field/email-field.component';
+import { EmailTextFieldComponent } from './reusable-components/email-text-field/email-text-field.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { EmailFieldComponent } from './email-field/email-field.component';
     TextFieldComponent,
     AuthCarouselComponent,
     PasswordFieldComponent,
-    EmailFieldComponent,
+    EmailTextFieldComponent,
   ],
   imports: [
     BrowserModule,
