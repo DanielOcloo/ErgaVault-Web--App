@@ -6,20 +6,19 @@
         </div>
 
         <!-- <right column> -->
-        <div class="col-md-6 right-box">
-            <div class="row align-items-center">
+        <div class="col-md-6 right-box d-flex align-items-center">
+            <div class="row align-items-center justify-content-center">
                 <div class="header_sub d-flex flex-column align-items-center">
-                    <h1 class="header-text mb-4">Forgot passoword?</h1>
-                    <p>Provide your email. A verification code will be sent to you.. </p>
+                    <h1 class="header-text mb-4">Email Verification</h1>
+                    <p>Enter the verification code sent to your email to continue.</p>
                 </div>
 
                 <!-- Email and password fields -->
                 <div class="input-group mb-3 col-12 d-flex flex-column">
-                    <app-email-text-field label="Email" placeholder="Enter your email" name="email"
-                        value="email"></app-email-text-field>
+                    <app-email-text-field label="Verification code" placeholder="xxx-xxx"></app-email-text-field>
                 </div>
                 <!-- Login button -->
-                <button class="primary_button col-12" [routerLink]="['/email-verification']">Continue</button>
+                <button class="primary_button col-12" [routerLink]="['/forgotpassword/reset-password']">Continue</button>
                 <!-- The text at the bottom -->
 
             </div>

@@ -3,12 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginPageComponent } from './main-pages/login-page/login-page.component';
 import { SignupPageComponent } from './main-pages/signup-page/signup-page.component';
 import { ForgotPasswordComponent } from './main-pages/forgot-password/forgot-password.component';
+import { EmailVerificationComponent } from './main-pages/email-verification/email-verification.component';
+import { ResetPasswordComponent } from './main-pages/reset-password/reset-password.component';
 import { DashboardComponent } from './main-pages/dashboard/dashboard.component';
 
 const routes: Routes = [
   {path:"", component:LoginPageComponent},
   {path:"signup", component:SignupPageComponent},
   {path:"login/forgotpassword", component:ForgotPasswordComponent},
+  {path:"email-verification", component:EmailVerificationComponent},
+  {path:"forgotpassword/reset-password", component:ResetPasswordComponent},
   {path:"login/dashboard", component:DashboardComponent},
 ];
 

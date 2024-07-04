@@ -12,6 +12,8 @@ import { EmailTextFieldComponent } from './reusable-components/email-text-field/
 import { SignupPageComponent } from './main-pages/signup-page/signup-page.component';
 import { ForgotPasswordComponent } from './main-pages/forgot-password/forgot-password.component';
 import { DashboardComponent } from './main-pages/dashboard/dashboard.component';
+import { EmailVerificationComponent } from './main-pages/email-verification/email-verification.component';
+import { ResetPasswordComponent } from './main-pages/reset-password/reset-password.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { DashboardComponent } from './main-pages/dashboard/dashboard.component';
     SignupPageComponent,
     ForgotPasswordComponent,
     DashboardComponent,
+    EmailVerificationComponent,
+    ResetPasswordComponent,
   ],
   imports: [
     BrowserModule,
