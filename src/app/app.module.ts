@@ -14,6 +14,7 @@ import { ForgotPasswordComponent } from './main-pages/forgot-password/forgot-pas
 import { DashboardComponent } from './main-pages/dashboard/dashboard.component';
 import { EmailVerificationComponent } from './main-pages/email-verification/email-verification.component';
 import { ResetPasswordComponent } from './main-pages/reset-password/reset-password.component';
+import { EmailVerificationNewuserComponent } from './main-pages/email-verification-newuser/email-verification-newuser.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ResetPasswordComponent } from './main-pages/reset-password/reset-passwo
     DashboardComponent,
     EmailVerificationComponent,
     ResetPasswordComponent,
+    EmailVerificationNewuserComponent,
   ],
   imports: [
     BrowserModule,

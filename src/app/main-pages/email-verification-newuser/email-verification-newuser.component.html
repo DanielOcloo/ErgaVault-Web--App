@@ -9,18 +9,16 @@
         <div class="col-md-6 right-box d-flex align-items-center">
             <div class="row align-items-center justify-content-center">
                 <div class="header_sub d-flex flex-column align-items-center">
-                    <h1 class="header-text mb-4">Reset Password</h1>
-                    <p>Create a new password to log in to your account.</p>
+                    <h1 class="header-text mb-4">Email Verification</h1>
+                    <p>Enter the verification code sent to your email to continue.</p>
                 </div>
 
                 <!-- Email and password fields -->
                 <div class="input-group mb-3 col-12 d-flex flex-column">
-                    <app-password-field class="mb-3" label="New password" placeholder="Enter your new password"></app-password-field>
-                    <app-password-field class="mb-3" label="Confirm new password" placeholder="Re-enter your new password to confirm"></app-password-field>
-
+                    <app-email-text-field label="Verification code" placeholder="xxx-xxx"></app-email-text-field>
                 </div>
                 <!-- Login button -->
-                <button class="primary_button col-12" [routerLink]='[""]'>Continue</button>
+                <button class="primary_button col-12" [routerLink]="['/login/dashboard']">Continue</button>
                 <!-- The text at the bottom -->
 
             </div>
