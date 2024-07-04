@@ -9,8 +9,8 @@
         <div class="col-md-6 right-box">
             <div class="row align-items-center">
                 <div class="header_sub d-flex flex-column align-items-center">
-                    <h1 class="header-text mb-4">Sign In</h1>
-                    <p>Provide your credentials or use your accounts to sign in.</p>
+                    <h1 class="header-text mb-4">Sign up</h1>
+                    <p>Welcome to CryptTransact! Create an account to get started.</p>
                 </div>
 
                 <!-- Alternate sign-in options -->
@@ -25,26 +25,27 @@
                 <div class="divider">or</div>
                 <!-- Email and password fields -->
                 <div class="input-group mb-3 col-12 d-flex flex-column">
+                    <div class="name-fields d-flex">
+                        <app-text-field class="first-name-field" label="First name" placeholder="Enter your first name" name="firstname"
+                        value="email"></app-text-field>
+                        <app-text-field label="Last name" placeholder="Enter your last name" name="lastname"
+                        value="email"></app-text-field>
+                    </div>
                     <app-email-text-field label="Email" placeholder="Enter your email" name="email"
                         value="email"></app-email-text-field>
                     <app-password-field label="Password" placeholder="Enter your password"></app-password-field>
 
                 </div>
-                <!-- Remember me and Forgot password -->
-                <div class="input-group mb-5 justify-content-between">
-                    <div class="form-check">
-                        <label>Remember me</label>
-                        <input type="checkbox" class="form-check-input" id="formCheck">
-                    </div>
-                    <div class="forgot_pass">
-                        <a href="/forgot_password.html">Forgot Password?</a>
-                    </div>
-                </div>
+                
                 <!-- Login button -->
-                <a href="/dashboard.html"><button class="primary_button">Log in</button></a>
+                <button class="primary_button" [routerLink]="['/login/dashboard']">Log in</button>
                 <!-- The text at the bottom -->
+                <div class="bottom-text d-flex justify-content-center mb-3">
+                    <p>Already have an account? <a [routerLink]='[""]'>Sign in</a></p>
+                </div>
+
                 <div class="bottom-text d-flex justify-content-center">
-                    <p>Don't have and account? <a href="/Signup.html">Sign up</a></p>
+                    <p class="TsCs">By signing up, you are confirming that you have read, and agree with all our <a [routerLink]='[""]'>Terms and Conditions.</a></p>
                 </div>
 
             </div>

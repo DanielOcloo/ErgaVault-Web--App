@@ -1,0 +1,53 @@
+<div class="main">
+    <div class="row box-area">
+        <!-- <left column> -->
+        <div class="left-box-container col-md-6 d-flex d-custom-none">
+            <app-auth-carousel></app-auth-carousel>
+        </div>
+
+        <!-- <right column> -->
+        <div class="col-md-6 right-box">
+            <div class="row align-items-center">
+                <div class="header_sub d-flex flex-column align-items-center">
+                    <h1 class="header-text mb-4">Sign In</h1>
+                    <p>Provide your credentials or use your accounts to sign in.</p>
+                </div>
+
+                <!-- Alternate sign-in options -->
+                <button type="button" class="google_btn">
+                    <img src="assets/google 1.svg" alt="">
+                    Continue with Google
+                </button>
+                <button type="button" class="google_btn">
+                    <img src="assets/apple 1.svg" alt="">
+                    Continue with Apple
+                </button>
+                <div class="divider">or</div>
+                <!-- Email and password fields -->
+                <div class="input-group mb-3 col-12 d-flex flex-column">
+                    <app-email-text-field label="Email" placeholder="Enter your email" name="email"
+                        value="email"></app-email-text-field>
+                    <app-password-field label="Password" placeholder="Enter your password"></app-password-field>
+
+                </div>
+                <!-- Remember me and Forgot password -->
+                <div class="input-group mb-5 justify-content-between">
+                    <div class="form-check">
+                        <label>Remember me</label>
+                        <input type="checkbox" class="form-check-input" id="formCheck">
+                    </div>
+                    <div class="forgot_pass">
+                        <a [routerLink]="['/login/forgotpassword']">Forgot Password?</a>
+                    </div>
+                </div>
+                <!-- Login button -->
+                <button class="primary_button" [routerLink]="['/login/dashboard']">Log in</button>
+                <!-- The text at the bottom -->
+                <div class="bottom-text d-flex justify-content-center">
+                    <p>Don't have an account? <a [routerLink]="['/signup']">Sign up</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
