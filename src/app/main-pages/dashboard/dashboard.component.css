@@ -1,0 +1,135 @@
+/* <left side> */
+.main{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.top-bar{
+    position: fixed;
+    height: 80px;
+    /* border: 1px solid black; */
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(30px);
+    z-index: 6;
+}
+
+
+.page-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0C8CE9;
+}
+
+.tb-rs-breaker{
+    height: 24px;
+    border: 1px solid #CCCCCC;
+}
+
+.send-button{
+    border: 1px solid #FEA37B;
+    border-radius: 8px;
+    color: #FEA37B;
+    background-color: white;
+    font-weight: 600;
+}
+
+.recieve-button{
+    border: 1px solid #0C8CE9;
+    border-radius: 8px;
+    color: #0C8CE9;
+    background-color: white;
+    font-weight: 600;
+}
+
+.left-box{
+    position: relative;
+    background:#F8F8F8;
+    border-image: url('/assets/istockphoto-95756763-612x612.jpg') 20 repeat;
+    border-image-width: 5px;
+    border-image-slice: 0 5 0 0;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.logo{
+    height: 24px;
+    width: 120px;
+    border: 1px solid #0C8CE9;
+}
+
+
+
+.nav-pills li a:hover{
+    background-color: #eff4f8;
+}
+
+#active{
+    background-color: #E0EDF7;
+    border-radius: 8px;
+    color: #0C8CE9;
+}
+
+.nav_item_icon{
+    margin-right: 16px;
+}
+
+.active-text{
+    color: #0C8CE9 !important;
+}
+
+
+
+.nav-link span{
+    color: #4A4A4A;
+}
+
+.side-nav-br{
+    border: 1px solid #E4E4E4;
+}
+
+/* .bottom-items{
+    position: absolute;
+    bottom: 40px;
+} */
+
+.profile-image{
+    width: 60px;
+    margin-right: 16px;
+}
+
+.profile-details p{
+    margin-bottom: 0px;
+    color: #7C7C7C;
+}
+
+.profile-name{
+    margin-bottom: 4px !important;
+    font-weight: 500;
+    color: #7C7C7C;
+}
+
+/* <right side> */
+
+.right-box{
+    height: 100vh;
+    padding: 0;
+    margin-top: 72px;
+    overflow-y: auto;
+    top: 0;
+}
+
+
+
+.rb-body{
+    overflow-y: auto;
+    border: 1px solid red;
+}
+
+.row1{
+    border: 5px solid blue;
+    height: 320px;
+}
+
+
+
