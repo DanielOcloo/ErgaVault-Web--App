@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+// import { ChartsModule } from 'ng-charts'; 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
@@ -15,6 +15,7 @@ import { DashboardComponent } from './main-pages/dashboard/dashboard.component';
 import { EmailVerificationComponent } from './main-pages/email-verification/email-verification.component';
 import { ResetPasswordComponent } from './main-pages/reset-password/reset-password.component';
 import { EmailVerificationNewuserComponent } from './main-pages/email-verification-newuser/email-verification-newuser.component';
+import { PortfolioValueCardComponent } from './card-components/portfolio-value-card/portfolio-value-card.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +31,13 @@ import { EmailVerificationNewuserComponent } from './main-pages/email-verificati
     EmailVerificationComponent,
     ResetPasswordComponent,
     EmailVerificationNewuserComponent,
+    PortfolioValueCardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    // ChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

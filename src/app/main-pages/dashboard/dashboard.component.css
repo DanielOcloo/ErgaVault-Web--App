@@ -123,12 +123,24 @@
 
 .rb-body{
     overflow-y: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .row1{
-    border: 5px solid blue;
+    /* border: 1px solid blue; */
     height: 320px;
+}
+
+.portfilio-value-container{
+    height: 100%;
+    width:50%;
+    /* border: 1px solid black; */
+}
+
+.div2{
+    height: 100%;
+    width:48%;
+    border: 1px solid red;
 }
 
 
