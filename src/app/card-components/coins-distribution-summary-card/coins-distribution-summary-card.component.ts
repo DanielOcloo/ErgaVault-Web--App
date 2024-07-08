@@ -29,7 +29,7 @@ export class CoinsDistributionSummaryCardComponent {
             '#55AFF0', // Color for Mar
             '#4BC0C0', // Color for Apr
             '#9966FF', // Color for May
-            '#FF9F40', // Color for Jun
+            '#FEA37B', // Color for Jun
             '#D8E3E9'  // Color for Jul
           ],
           borderWidth: 2,

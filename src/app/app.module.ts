@@ -17,6 +17,9 @@ import { ResetPasswordComponent } from './main-pages/reset-password/reset-passwo
 import { EmailVerificationNewuserComponent } from './main-pages/email-verification-newuser/email-verification-newuser.component';
 import { PortfolioValueCardComponent } from './card-components/portfolio-value-card/portfolio-value-card.component';
 import { CoinsDistributionSummaryCardComponent } from './card-components/coins-distribution-summary-card/coins-distribution-summary-card.component';
+import { AccountVerificationCardComponent } from './card-components/account-verification-card/account-verification-card.component';
+import { CoinsSummaryCardComponent } from './card-components/coins-summary-card/coins-summary-card.component';
+import { MarketsSummaryCardComponent } from './card-components/markets-summary-card/markets-summary-card.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { CoinsDistributionSummaryCardComponent } from './card-components/coins-d
     EmailVerificationNewuserComponent,
     PortfolioValueCardComponent,
     CoinsDistributionSummaryCardComponent,
+    AccountVerificationCardComponent,
+    CoinsSummaryCardComponent,
+    MarketsSummaryCardComponent,
   ],
   imports: [
     BrowserModule,
