@@ -1,0 +1,33 @@
+.main{
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+    position: relative;
+}
+
+.card-header{
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.see-all{
+    margin-right: 8px;
+}
+
+.divider_horiz{
+    border: 1px solid #e0e0e0;
+}
+
+.image-container{
+    margin-right: 8px;
+}
+
+.coin-abbreviation{
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.coin-amounts{
+    font-weight: 600;
+    color: #4D4D4D;
+}

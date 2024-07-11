@@ -1,0 +1,23 @@
+.section-1{
+    width: 40%;
+    margin-right: 1em;
+}
+
+.section-2{
+    width: 25%;
+    margin-right: 1em;    
+}
+
+.image-container {
+    margin-right: 8px;
+}
+
+.coin-abbreviation {
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.coin-amounts {
+    font-weight: 600;
+    color: #4D4D4D;
+}

@@ -21,6 +21,7 @@ import { AccountVerificationCardComponent } from './card-components/account-veri
 import { CoinsSummaryCardComponent } from './card-components/coins-summary-card/coins-summary-card.component';
 import { MarketsSummaryCardComponent } from './card-components/markets-summary-card/markets-summary-card.component';
 import { PrimaryButtonComponent } from './reusable-components/primary-button/primary-button.component';
+import { CoinSummaryCardItemComponent } from './reusable-components/coin-summary-card-item/coin-summary-card-item.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { PrimaryButtonComponent } from './reusable-components/primary-button/pri
     CoinsSummaryCardComponent,
     MarketsSummaryCardComponent,
     PrimaryButtonComponent,
+    CoinSummaryCardItemComponent,
   ],
   imports: [
     BrowserModule,
