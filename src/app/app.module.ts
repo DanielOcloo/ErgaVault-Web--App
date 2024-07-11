@@ -20,6 +20,7 @@ import { CoinsDistributionSummaryCardComponent } from './card-components/coins-d
 import { AccountVerificationCardComponent } from './card-components/account-verification-card/account-verification-card.component';
 import { CoinsSummaryCardComponent } from './card-components/coins-summary-card/coins-summary-card.component';
 import { MarketsSummaryCardComponent } from './card-components/markets-summary-card/markets-summary-card.component';
+import { PrimaryButtonComponent } from './reusable-components/primary-button/primary-button.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { MarketsSummaryCardComponent } from './card-components/markets-summary-c
     AccountVerificationCardComponent,
     CoinsSummaryCardComponent,
     MarketsSummaryCardComponent,
+    PrimaryButtonComponent,
   ],
   imports: [
     BrowserModule,
