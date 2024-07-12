@@ -7,6 +7,7 @@ import { EmailVerificationComponent } from './main-pages/email-verification/emai
 import { EmailVerificationNewuserComponent } from './main-pages/email-verification-newuser/email-verification-newuser.component';
 import { ResetPasswordComponent } from './main-pages/reset-password/reset-password.component';
 import { DashboardComponent } from './main-pages/dashboard/dashboard.component';
+import { WalletsPageComponent } from './main-pages/wallets-page/wallets-page.component';
 
 const routes: Routes = [
   {path:"", component:LoginPageComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path:"sign-up/emailverification-newuser", component:EmailVerificationNewuserComponent},
   {path:"forgotpassword/reset-password", component:ResetPasswordComponent},
   {path:"login/dashboard", component:DashboardComponent},
+  {path:"wallets-page",component:WalletsPageComponent},
 ];
 
 @NgModule({

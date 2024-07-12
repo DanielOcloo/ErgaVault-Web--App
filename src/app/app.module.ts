@@ -25,6 +25,7 @@ import { CoinSummaryCardItemComponent } from './reusable-components/coin-summary
 import { CoinDetailsItemComponent } from './reusable-components/coin-details-item/coin-details-item.component';
 import { TopBarComponent } from './reusable-components/top-bar/top-bar.component';
 import { SideNavComponent } from './reusable-components/side-nav/side-nav.component';
+import { WalletsPageComponent } from './main-pages/wallets-page/wallets-page.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { SideNavComponent } from './reusable-components/side-nav/side-nav.compon
     CoinDetailsItemComponent,
     TopBarComponent,
     SideNavComponent,
+    WalletsPageComponent,
   ],
   imports: [
     BrowserModule,
