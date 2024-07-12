@@ -1,0 +1,25 @@
+<div class="coin mb-4 d-flex justify-content-between align-items-center">
+    <!-- Section 1 -->
+    <div class="section-1 d-flex align-items-center">
+      <div class="image-container">
+        <img [src]="imageSrc">
+      </div>
+      <div class="coin-details d-flex flex-column">
+        <p class="coin-abbreviation mb-0">{{ coinAbbreviation }}</p>
+        <p class="mb-0">{{ coinName }}</p>
+      </div>
+    </div>
+    <!-- Section 2 -->
+    <div class="section-2">
+      <div class="coin-amounts">
+        <p class="mb-0">{{ coinPrice | currency:'USD':'symbol':'1.2-2' }}</p>
+      </div>
+    </div>
+    <!-- Section 3 -->
+    <div class="section-3">
+      <p class="indicator mb-0" [ngClass]="{'positive': indicator > 0, 'negative': indicator < 0}">
+        {{ indicator > 0 ? '+' : '' }}{{ indicator | number:'1.2-2' }}%
+      </p>
+    </div>
+  </div>
+  

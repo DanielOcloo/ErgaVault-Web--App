@@ -1,1 +1,25 @@
-<p>markets-summary-card works!</p>
+<div class="main col-12 col-sm-12 col-md-12 p-3">
+    <div class="title-row mb-3 d-flex justify-content-between align-items-center">
+        <p class="card-header">Markets Summary</p>
+        <div class="see-all-container d-flex align-items-center">
+            <p class="see-all mb-0">See all</p>
+            <img src="/assets/arrow_forward.svg">
+        </div>
+    </div>
+    <div class="card-content">
+        <app-coin-details-item imageSrc="/assets/bitcoin.png" coinAbbreviation="BTC" coinName="Bitcoin" [coinPrice]="41628"
+            [indicator]="0.27"></app-coin-details-item>
+        <div class="divider_horiz mb-4"></div>
+        <app-coin-details-item imageSrc="/assets/litecoin.png" coinAbbreviation="LTC" coinName="litecoin" [coinPrice]="70.82"
+            [indicator]="-0.14"></app-coin-details-item>
+        <div class="divider_horiz mb-4"></div>
+        <app-coin-details-item imageSrc="/assets/ethereum.png" coinAbbreviation="ETH" coinName="Ethereum" [coinPrice]="509.53"
+            [indicator]="0.58"></app-coin-details-item>
+        <div class="divider_horiz mb-4"></div>
+        <app-coin-details-item imageSrc="/assets/ripple.png" coinAbbreviation="XRP" coinName="Ripple" [coinPrice]="0.5519"
+        [indicator]="0.88"></app-coin-details-item>
+
+    </div>
+
+
+</div>

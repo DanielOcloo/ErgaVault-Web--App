@@ -1,0 +1,27 @@
+.image-container {
+    margin-right: 8px;
+  }
+  
+  .coin-abbreviation {
+    font-weight: 600;
+    color: #4D4D4D;
+  }
+  
+  .coin-amounts {
+    font-weight: 600;
+    color: #4D4D4D;
+  }
+  
+  .indicator {
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  
+  .indicator.positive {
+    color: green;
+  }
+  
+  .indicator.negative {
+    color: red;
+  }
+  
