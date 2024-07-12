@@ -1,3 +1,15 @@
+.section-1{
+    width: 40%;
+    margin-right: 1em;
+    /* border: 1px solid black; */
+}
+
+.section-2{
+    width: 25%;
+    margin-right: 1em;  
+    /* border: 1px solid black;   */
+}
+
 .image-container {
     margin-right: 8px;
 }

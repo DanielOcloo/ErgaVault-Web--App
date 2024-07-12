@@ -1,0 +1,43 @@
+.left-box {
+    position: relative;
+    background: #F8F8F8;
+    border-image: url('/assets/istockphoto-95756763-612x612.jpg') 20 repeat;
+    border-image-width: 5px;
+    border-image-slice: 0 5 0 0;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 10;
+  }
+  
+  .logo {
+    height: 24px;
+    width: 120px;
+    border: 1px solid #0C8CE9;
+  }
+  
+  .nav-pills li a:hover {
+    background-color: #eff4f8;
+  }
+  
+  .nav-link.active {
+    background-color: #E0EDF7;
+    border-radius: 8px;
+    color: #0C8CE9;
+  }
+  
+  .nav_item_icon {
+    margin-right: 16px;
+  }
+  
+  .active-text {
+    color: #0C8CE9 !important;
+  }
+  
+  .nav-link span {
+    color: #4A4A4A;
+  }
+  
+  .side-nav-br {
+    border: 1px solid #E4E4E4;
+  }
+  

@@ -23,6 +23,8 @@ import { MarketsSummaryCardComponent } from './card-components/markets-summary-c
 import { PrimaryButtonComponent } from './reusable-components/primary-button/primary-button.component';
 import { CoinSummaryCardItemComponent } from './reusable-components/coin-summary-card-item/coin-summary-card-item.component';
 import { CoinDetailsItemComponent } from './reusable-components/coin-details-item/coin-details-item.component';
+import { TopBarComponent } from './reusable-components/top-bar/top-bar.component';
+import { SideNavComponent } from './reusable-components/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { CoinDetailsItemComponent } from './reusable-components/coin-details-ite
     PrimaryButtonComponent,
     CoinSummaryCardItemComponent,
     CoinDetailsItemComponent,
+    TopBarComponent,
+    SideNavComponent,
   ],
   imports: [
     BrowserModule,

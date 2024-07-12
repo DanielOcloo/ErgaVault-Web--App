@@ -1,0 +1,35 @@
+.top-bar {
+    position: fixed;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    z-index: 6;
+  }
+  
+  .page-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0C8CE9;
+  }
+  
+  .tb-rs-breaker {
+    height: 24px;
+    border: 1px solid #CCCCCC;
+  }
+  
+  .send-button {
+    border: 1px solid #FEA37B;
+    border-radius: 8px;
+    color: #FEA37B;
+    background-color: white;
+    font-weight: 600;
+  }
+  
+  .recieve-button {
+    border: 1px solid #0C8CE9;
+    border-radius: 8px;
+    color: #0C8CE9;
+    background-color: white;
+    font-weight: 600;
+  }
+  

@@ -1,0 +1,16 @@
+<div class="left-box col-2 px-3 py-3">
+    <div class="logo mx-auto">
+      <!-- <img src="/assets/logo.png" alt="ErgaCrypto Logo"> -->
+    </div>
+    <!-- Side nav items -->
+    <ul class="nav nav-pills flex-column mt-5">
+      <li class="nav-item mb-3" *ngFor="let item of navItems">
+        <a [routerLink]="item.link" class="nav-link d-flex align-items-center" [ngClass]="{'active': activePage === item.name}">
+          <img [src]="activePage === item.name ? activeIcon : item.icon" class="nav_item_icon mr-2">
+          <span [class.active-text]="activePage === item.name">{{ item.name }}</span>
+        </a>
+      </li>
+      <div class="side-nav-br mb-3"></div>
+    </ul>
+  </div>
+  
