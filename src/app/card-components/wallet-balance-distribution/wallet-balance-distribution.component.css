@@ -1,0 +1,46 @@
+.main{
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+    position: relative;
+}
+
+.card-header{
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.card-header2{
+    font-weight: 600;
+    color: #0C8CE9;   
+}
+
+.chart-container{
+    height: 70%;
+    /* border: 1px solid red; */
+}
+
+#linechart{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.durations{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.duration-button{
+    padding: 4px 8px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    /* font-weight: 600; */
+    color: #7F7F7F;
+}
+
+.duration-button:hover{
+    background-color: #e7e7e7;
+}

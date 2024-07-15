@@ -1,13 +1,13 @@
+.coin{
+    position: relative;
+    padding-right: 26%;
+    margin-right: 16px;
+}
+
 .section-1{
     width: 40%;
     margin-right: 1em;
     /* border: 1px solid black; */
-}
-
-.section-2{
-    width: 25%;
-    margin-right: 1em;  
-    /* border: 1px solid black;   */
 }
 
 .image-container {
@@ -19,7 +19,22 @@
     color: #4D4D4D;
 }
 
+.section-2{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 25%;
+    width: 25%;
+    margin-right: 1em;  
+    /* border: 1px solid black;   */
+}
+
 .coin-amounts {
     font-weight: 600;
     color: #4D4D4D;
+}
+
+.section-3{
+    position: absolute;
+    right: 0px;
 }

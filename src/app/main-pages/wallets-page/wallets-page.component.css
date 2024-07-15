@@ -1,0 +1,58 @@
+/* <left side> */
+.main{
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* <right side> */
+
+.right-box{
+    height: 100vh;
+    padding: 0;
+    /* margin-top: 72px; */
+    /* margin-bottom: 120px; */
+    overflow-y: auto;
+    top: 0;
+}
+
+
+
+.rb-body{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    /* overflow-y: auto; */
+    /* border: 1px solid red; */
+}
+
+.row1{
+    /* border: 1px solid blue; */
+    height: 320px;
+}
+
+.balance-container{
+    height: 100%;
+    width:100%;
+    /* border: 1px solid black; */
+}
+
+.row2{
+    height: 580px;
+    /* border: 1px solid blue; */
+}
+
+.coins-card-container{
+    height: 100%;
+    width: 49%;
+}
+
+.coins-distribution-card-container{
+    height: 100%;
+    width: 49%;
+}
+
+.row3{
+    height: 580px;
+    border: 1px solid red;
+}
+
+

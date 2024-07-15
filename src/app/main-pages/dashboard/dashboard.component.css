@@ -4,27 +4,6 @@
     overflow: hidden;
 }
 
-/* .bottom-items{
-    position: absolute;
-    bottom: 40px;
-} */
-
-.profile-image{
-    width: 60px;
-    margin-right: 16px;
-}
-
-.profile-details p{
-    margin-bottom: 0px;
-    color: #7C7C7C;
-}
-
-.profile-name{
-    margin-bottom: 4px !important;
-    font-weight: 500;
-    color: #7C7C7C;
-}
-
 /* <right side> */
 
 .right-box{
