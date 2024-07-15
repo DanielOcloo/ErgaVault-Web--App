@@ -1,0 +1,10 @@
+<!-- right-side-menu.component.html -->
+<div class="overlay" *ngIf="isMenuOpen" (click)="toggleMenu()"></div>
+<div class="side-menu" [ngClass]="{'open': isMenuOpen}">
+  <div class="side-menu-content">
+    <!-- Add your menu content here -->
+    <p>Menu Item 1</p>
+    <p>Menu Item 2</p>
+    <p>Menu Item 3</p>
+  </div>
+</div>

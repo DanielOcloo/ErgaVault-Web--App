@@ -1,15 +1,17 @@
 <div class="top-bar col-12 col-md-12 col-lg-12 w-100 px-3 d-flex align-items-center justify-content-end">
     <div class="top-bar-items col-10 px-3 d-flex align-items-center justify-content-between">
-        <h1 class="page-header mb-0">{{ pageTitle }}</h1>
-        <div class="tb-right-side d-flex align-items-center">
-            <img src="/assets/dice_orange.svg" class="dice_orange mx-3">
-            <div class="tb-rs-breaker"></div>
-            <button class="send-button mx-3 px-4 py-2">Send</button>
-            <button class="recieve-button px-4 py-2">Receive</button>
-            <div class="tb-rs-breaker mx-3"></div>
-            <img src="/assets/search.svg">
-            <img src="/assets/notification.svg" class="mx-3">
-            <img src="/assets/top profile image.png">
-        </div>
+      <h1 class="page-header mb-0">{{ pageTitle }}</h1>
+      <div class="tb-right-side d-flex align-items-center">
+        <img src="/assets/dice_orange.svg" class="dice_orange mx-3">
+        <div class="tb-rs-breaker"></div>
+        <button class="send-button mx-3 px-4 py-2" (click)="sideMenu.toggleMenu()">Send</button>
+        <button class="recieve-button px-4 py-2">Receive</button>
+        <div class="tb-rs-breaker mx-3"></div>
+        <img src="/assets/search.svg">
+        <img src="/assets/notification.svg" class="mx-3">
+        <img src="/assets/top profile image.png">
+      </div>
     </div>
-</div>
+  </div>
+  <app-send-menu #sideMenu></app-send-menu>
+  
