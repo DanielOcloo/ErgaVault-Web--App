@@ -51,8 +51,13 @@
 }
 
 .row3{
-    height: 580px;
+    height: 428px;
     border: 1px solid red;
+}
+
+.game-ad-container{
+    height: 100%;
+    width: 49%;
 }
 
 

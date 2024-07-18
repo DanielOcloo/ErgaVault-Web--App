@@ -30,6 +30,8 @@ import { SendMenuComponent } from './menus/send-menu/send-menu.component';
 import { WalletBalanceDistributionComponent } from './card-components/wallet-balance-distribution/wallet-balance-distribution.component';
 import { CoinsCardComponent } from './card-components/coins-card/coins-card.component';
 import { CoinsDistributionCardComponent } from './card-components/coins-distribution-card/coins-distribution-card.component';
+import { GameAdComponent } from './card-components/game-ad/game-ad.component';
+import { PrimaryButtonWithIconComponent } from './reusable-components/primary-button-with-icon/primary-button-with-icon.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +62,8 @@ import { CoinsDistributionCardComponent } from './card-components/coins-distribu
     WalletBalanceDistributionComponent,
     CoinsCardComponent,
     CoinsDistributionCardComponent,
+    GameAdComponent,
+    PrimaryButtonWithIconComponent,
   ],
   imports: [
     BrowserModule,
