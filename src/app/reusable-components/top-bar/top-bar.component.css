@@ -21,7 +21,7 @@
     border: 1px solid #FEA37B;
     border-radius: 8px;
     color: #FEA37B;
-    background-color: white;
+    background: none;
     font-weight: 600;
   }
   
@@ -29,7 +29,8 @@
     border: 1px solid #0C8CE9;
     border-radius: 8px;
     color: #0C8CE9;
-    background-color: white;
+    background: none;
+    /* background-color: white; */
     font-weight: 600;
   }
   

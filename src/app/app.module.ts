@@ -32,6 +32,12 @@ import { CoinsCardComponent } from './card-components/coins-card/coins-card.comp
 import { CoinsDistributionCardComponent } from './card-components/coins-distribution-card/coins-distribution-card.component';
 import { GameAdComponent } from './card-components/game-ad/game-ad.component';
 import { PrimaryButtonWithIconComponent } from './reusable-components/primary-button-with-icon/primary-button-with-icon.component';
+import { MarketsPageComponent } from './main-pages/markets-page/markets-page.component';
+import { ExplorePageComponent } from './main-pages/explore-page/explore-page.component';
+import { ProfilePageComponent } from './main-pages/profile-page/profile-page.component';
+import { ProfileInformationComponent } from './card-components/profile-information/profile-information.component';
+import { SecondaryButtonWithIconComponent } from './reusable-components/secondary-button-with-icon/secondary-button-with-icon.component';
+import { ProfileWalletCardComponent } from './profile-wallet-card/profile-wallet-card.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +70,12 @@ import { PrimaryButtonWithIconComponent } from './reusable-components/primary-bu
     CoinsDistributionCardComponent,
     GameAdComponent,
     PrimaryButtonWithIconComponent,
+    MarketsPageComponent,
+    ExplorePageComponent,
+    ProfilePageComponent,
+    ProfileInformationComponent,
+    SecondaryButtonWithIconComponent,
+    ProfileWalletCardComponent,
   ],
   imports: [
     BrowserModule,

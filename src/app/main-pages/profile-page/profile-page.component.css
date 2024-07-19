@@ -25,18 +25,7 @@
 }
 
 .row1{
-    /* border: 1px solid blue; */
-    height: 320px;
-}
-
-.balance-container{
-    height: 100%;
-    width:100%;
-    /* border: 1px solid black; */
-}
-
-.row2{
-    height: 580px;
+    height: 382px;
     /* border: 1px solid blue; */
 }
 
@@ -50,7 +39,7 @@
     width: 49%;
 }
 
-.row3{
+.row2{
     height: 428px;
 }
 

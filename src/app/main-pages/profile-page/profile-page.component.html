@@ -1,31 +1,25 @@
 <div class="main d-flex p-0 m-0">
     <div class="row d-flex col-12 m-0">
         <!-- top bar -->
-        <app-top-bar pageTitle="Wallets"></app-top-bar>
+        <app-top-bar pageTitle="Profile"></app-top-bar>
         <!-- <left column> -->
         <div class="left-box col-2 p-0">
-           <app-side-nav activePage="Wallets" activeIcon="/assets/wallet_icon_blue.svg"></app-side-nav>
+            <app-side-nav activePage="Profile" activeIcon="/assets/Profile _icon_blue.png"></app-side-nav>
         </div>
 
         <!-- <right column> -->
         <div class="right-box col-10 col-md-10">
             <div class="rb-body col-12 col-md-12">
                 <div class="row1 mx-4 mt-5 d-flex justify-content-between">
-                    <div class="balance-container">
-                        <app-wallet-balance-distribution></app-wallet-balance-distribution>
-                    </div>
-                </div>
-
-                <div class="row2 mx-4 mt-5 d-flex justify-content-between">
                     <div class="coins-card-container">
-                        <app-coins-card></app-coins-card>
+                        <app-profile-information></app-profile-information>
                     </div>
                     <div class="coins-distribution-card-container">
                         <app-coins-distribution-card></app-coins-distribution-card>
                     </div>
                 </div>
 
-                <div class="row3 mx-4 mt-5 d-flex justify-content-between">
+                <div class="row2 mx-4 mt-5 d-flex justify-content-between">
                     <div class="game-ad-container">
                         <app-game-ad></app-game-ad>
                     </div>

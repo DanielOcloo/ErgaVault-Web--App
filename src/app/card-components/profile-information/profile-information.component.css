@@ -1,0 +1,29 @@
+.main{
+    height: 100%;
+    /* border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 24px; */
+}
+
+.profile-pic{
+    margin-right: 24px;
+}
+
+.profile-name{
+    font-weight: 700;
+    color: #4D4D4D;
+}
+
+.display-name{
+    font-weight: 700;
+    color: #4D4D4D;
+}
+
+.display-name2{
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.secondary-button-container{
+    width: 70%;
+}
+
