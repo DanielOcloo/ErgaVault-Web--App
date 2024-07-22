@@ -1,0 +1,32 @@
+.main{
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+    background-color: #FFF1EB;
+}
+
+.card-header{
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.percentage-completion{
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.percentage-completion-text{
+    position: relative;
+    margin-right: 16px;
+}
+
+.chart-container{
+   height: 60px;
+   width: 60px;
+}
+
+
+.card-explanation{
+    color: #4D4D4D;
+}
+

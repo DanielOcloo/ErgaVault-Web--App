@@ -40,6 +40,7 @@ import { SecondaryButtonWithIconComponent } from './reusable-components/secondar
 import { ProfileWalletCardComponent } from './card-components/profile-wallet-card/profile-wallet-card.component';
 import { ButtonOutlineBlueComponent } from './reusable-components/button-outline-blue/button-outline-blue.component';
 import { ButtonOutlineOrangeComponent } from './reusable-components/button-outline-orange/button-outline-orange.component';
+import { AccountVerificationCard2Component } from './card-components/account-verification-card-2/account-verification-card-2.component';
 
 @NgModule({
   declarations: [
@@ -80,6 +81,7 @@ import { ButtonOutlineOrangeComponent } from './reusable-components/button-outli
     ProfileWalletCardComponent,
     ButtonOutlineBlueComponent,
     ButtonOutlineOrangeComponent,
+    AccountVerificationCard2Component,
   ],
   imports: [
     BrowserModule,

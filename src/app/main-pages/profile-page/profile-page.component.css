@@ -39,11 +39,15 @@
     width: 49%;
 }
 
-.row2{
-    height: 428px;
+.divider-horiz{
+    border: 1px solid #e0e0e0;
 }
 
-.game-ad-container{
+.row2{
+    height: 448px;
+}
+
+.account-verification-card-2-container{
     height: 100%;
     width: 49%;
 }
