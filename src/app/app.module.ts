@@ -37,7 +37,9 @@ import { ExplorePageComponent } from './main-pages/explore-page/explore-page.com
 import { ProfilePageComponent } from './main-pages/profile-page/profile-page.component';
 import { ProfileInformationComponent } from './card-components/profile-information/profile-information.component';
 import { SecondaryButtonWithIconComponent } from './reusable-components/secondary-button-with-icon/secondary-button-with-icon.component';
-import { ProfileWalletCardComponent } from './profile-wallet-card/profile-wallet-card.component';
+import { ProfileWalletCardComponent } from './card-components/profile-wallet-card/profile-wallet-card.component';
+import { ButtonOutlineBlueComponent } from './reusable-components/button-outline-blue/button-outline-blue.component';
+import { ButtonOutlineOrangeComponent } from './reusable-components/button-outline-orange/button-outline-orange.component';
 
 @NgModule({
   declarations: [
@@ -76,6 +78,8 @@ import { ProfileWalletCardComponent } from './profile-wallet-card/profile-wallet
     ProfileInformationComponent,
     SecondaryButtonWithIconComponent,
     ProfileWalletCardComponent,
+    ButtonOutlineBlueComponent,
+    ButtonOutlineOrangeComponent,
   ],
   imports: [
     BrowserModule,

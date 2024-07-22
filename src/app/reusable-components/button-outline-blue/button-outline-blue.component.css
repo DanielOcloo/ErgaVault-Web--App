@@ -1,0 +1,22 @@
+.primary_button {
+    text-align: center;
+    border: 1px solid #0C8CE9;
+    border-radius: 12px;
+    color: #0C8CE9;
+    text-decoration: none;
+    font-size: 1.25rem;
+    width: 100%;
+    /* height: 60px; */
+    cursor: pointer;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .primary_button .button_image {
+    margin-left: 8px; 
+    height: 24px; 
+    width: 24px;
+  }
+  

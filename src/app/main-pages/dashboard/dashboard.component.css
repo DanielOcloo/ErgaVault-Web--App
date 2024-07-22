@@ -1,5 +1,6 @@
 /* <left side> */
 .main{
+    display: flex;
     height: 100vh;
     overflow: hidden;
 }
@@ -8,7 +9,7 @@
 
 .right-box{
     height: 100vh;
-    padding: 0;
+    /* padding: 0; */
     /* margin-top: 72px; */
     /* margin-bottom: 120px; */
     overflow-y: auto;

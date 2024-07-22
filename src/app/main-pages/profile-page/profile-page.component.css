@@ -29,12 +29,12 @@
     /* border: 1px solid blue; */
 }
 
-.coins-card-container{
+.profile-information-container{
     height: 100%;
     width: 49%;
 }
 
-.coins-distribution-card-container{
+.profile-wallet-card-container{
     height: 100%;
     width: 49%;
 }
