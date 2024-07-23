@@ -15,7 +15,7 @@ export class SideNavComponent {
     { name: 'Markets', icon: '/assets/Website_icon.svg', link: '/markets-page' },
     { name: 'Explore', icon: '/assets/explore_icon.svg', link: '/explore-page' },
     { name: 'Profile', icon: '/assets/Profile_icon.svg', link: '/profile-page' },
-    { name: 'Transactions', icon: '/assets/history_icon.svg', link: '/transactions' },
-    { name: 'Settings', icon: '/assets/setting-icon.svg', link: '/settings' }
+    { name: 'Transactions', icon: '/assets/history_icon.svg', link: '/transactions-page' },
+    { name: 'Settings', icon: '/assets/setting-icon.svg', link: '/settings-page' }
   ];
 }

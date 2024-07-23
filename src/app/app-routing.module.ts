@@ -11,6 +11,8 @@ import { WalletsPageComponent } from './main-pages/wallets-page/wallets-page.com
 import { MarketsPageComponent } from './main-pages/markets-page/markets-page.component';
 import { ExplorePageComponent } from './main-pages/explore-page/explore-page.component';
 import { ProfilePageComponent } from './main-pages/profile-page/profile-page.component';
+import { TransactionsPageComponent } from './main-pages/transactions-page/transactions-page.component';
+import { SettingsPageComponent } from './main-pages/settings-page/settings-page.component';
 
 const routes: Routes = [
   {path:"", component:LoginPageComponent},
@@ -24,6 +26,8 @@ const routes: Routes = [
   {path:"markets-page",component:MarketsPageComponent},
   {path:"explore-page",component:ExplorePageComponent},
   {path:"profile-page",component:ProfilePageComponent},
+  {path:"transactions-page",component:TransactionsPageComponent},
+  {path:"settings-page",component:SettingsPageComponent}
 ];
 
 @NgModule({

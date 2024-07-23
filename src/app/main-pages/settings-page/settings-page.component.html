@@ -1,0 +1,56 @@
+<div class="main d-flex p-0 m-0">
+    <div class="row d-flex col-12 m-0">
+        <!-- top bar -->
+        <app-top-bar pageTitle="Settings"></app-top-bar>
+        <!-- <left column> -->
+        <div class="left-box col-2 p-0">
+            <app-side-nav activePage="Settings" activeIcon="/assets/setting_blue.png"></app-side-nav>
+        </div>
+
+        <!-- <right column> -->
+        <div class="right-box col-10 col-md-10">
+            <div class="rb-body col-12 col-md-12 p-3">
+                <a [routerLink]="['/settings/two-factor']" class="settings-item col-12 mb-4 d-flex justify-content-between align-items-center">
+                    <div class="title&explanation">
+                        <div class="title d-flex mb-2">
+                            <img src="/assets/Security Safe.png" alt="security_icon" class="icon">
+                            <p class="mb-0">Two-factor authentication</p>
+                        </div>
+                        <p>Enhance the security of your account by activating two-factor authentication.</p>
+                    </div>
+                    <div class="toggle-button">
+                        <label class="switch">
+                            <input type="checkbox" id="twoFAToggle">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </a>
+                <div class="divider-horiz mb-4"></div>
+                <a [routerLink]="['/settings/currencies']" class="settings-item col-12 mb-4 d-flex justify-content-between align-items-center">
+                    <div class="title&explanation">
+                        <div class="title d-flex mb-2">
+                            <img src="/assets/bitcoin_outline.png" alt="currency_icon" class="icon">
+                            <p class="mb-0">Currencies</p>
+                        </div>
+                        <p>Customize your experience by managing supported currencies.</p>
+                    </div>
+                </a>
+                <div class="divider-horiz mb-4"></div>
+                <a [routerLink]="['/settings/operations']" class="settings-item col-12 mb-4 d-flex justify-content-between align-items-center">
+                    <div class="title&explanation">
+                        <div class="title d-flex mb-2">
+                            <img src="/assets/operations.png" alt="operations_icon" class="icon">
+                            <p class="mb-0">Operations</p>
+                        </div>
+                        <p>Efficiently monitor and manage your transactions, operations and other activity.</p>
+                    </div>
+                </a>
+                <div class="divider-horiz mb-4"></div>
+                <a [routerLink]="['/logout']" class="logout d-flex mb-2 align-items-center">
+                    <p class="mb-0">Logout</p>
+                    <img src="/assets/logout.png" alt="logout_icon" class="icon ms-2">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

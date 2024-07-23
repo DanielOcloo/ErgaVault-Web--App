@@ -1,0 +1,65 @@
+/* <left side> */
+.main{
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* <right side> */
+
+.right-box{
+    height: 100vh;
+    padding: 0;
+    /* margin-top: 72px; */
+    /* margin-bottom: 120px; */
+    overflow-y: auto;
+    top: 0;
+}
+
+.rb-body{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    /* overflow-y: auto; */
+    /* border: 1px solid red; */
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-table th, .transaction-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.transaction-table th {
+    font-weight: bold;
+    color: #4D4D4D;
+}
+
+.coin-info {
+    display: flex;
+    align-items: center;
+}
+
+.coin-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.coin-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.coin-abbr {
+    font-weight: bold;
+    color: #4D4D4D;
+}
+
+.coin-name {
+    font-size: 0.8em;
+    color: #666;
+}

@@ -43,7 +43,8 @@ import { ButtonOutlineOrangeComponent } from './reusable-components/button-outli
 import { AccountVerificationCard2Component } from './card-components/account-verification-card-2/account-verification-card-2.component';
 import { PayoutAccountCardComponent } from './card-components/payout-account-card/payout-account-card.component';
 import { AccountCardComponent } from './card-components/account-card/account-card.component';
-import { TransactionsPageComponent } from './transactions-page/transactions-page.component';
+import { TransactionsPageComponent } from './main-pages/transactions-page/transactions-page.component';
+import { SettingsPageComponent } from './main-pages/settings-page/settings-page.component';
 
 @NgModule({
   declarations: [
@@ -88,6 +89,7 @@ import { TransactionsPageComponent } from './transactions-page/transactions-page
     PayoutAccountCardComponent,
     AccountCardComponent,
     TransactionsPageComponent,
+    SettingsPageComponent,
   ],
   imports: [
     BrowserModule,
