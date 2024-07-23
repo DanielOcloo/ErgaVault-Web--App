@@ -41,6 +41,9 @@ import { ProfileWalletCardComponent } from './card-components/profile-wallet-car
 import { ButtonOutlineBlueComponent } from './reusable-components/button-outline-blue/button-outline-blue.component';
 import { ButtonOutlineOrangeComponent } from './reusable-components/button-outline-orange/button-outline-orange.component';
 import { AccountVerificationCard2Component } from './card-components/account-verification-card-2/account-verification-card-2.component';
+import { PayoutAccountCardComponent } from './card-components/payout-account-card/payout-account-card.component';
+import { AccountCardComponent } from './card-components/account-card/account-card.component';
+import { TransactionsPageComponent } from './transactions-page/transactions-page.component';
 
 @NgModule({
   declarations: [
@@ -82,6 +85,9 @@ import { AccountVerificationCard2Component } from './card-components/account-ver
     ButtonOutlineBlueComponent,
     ButtonOutlineOrangeComponent,
     AccountVerificationCard2Component,
+    PayoutAccountCardComponent,
+    AccountCardComponent,
+    TransactionsPageComponent,
   ],
   imports: [
     BrowserModule,

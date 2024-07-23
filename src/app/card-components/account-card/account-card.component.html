@@ -1,0 +1,17 @@
+<div class="account-card p-3 mb-3 d-flex justify-content-between">
+    <div class="image-and-info d-flex align-items-center">
+        <img [src]="imageSrc" alt="Account Verification Illustration" class="account-image">
+        <div class="account-info">
+            <p class="top-text mb-1">{{ topText }}</p>
+            <p class="bottom-text mb-0">{{ bottomText }}</p>
+        </div>
+    </div>
+    <div class="right-side d-flex align-items-center justify-content-center">
+        <button class="state mb-0" (click)="toggleDefault()"
+            [ngClass]="{ 'default-state': isDefault, 'set-as-default': !isDefault }">
+            {{ isDefault ? 'Default' : 'Set as default' }}
+        </button>
+        <div class="divider-vert mx-2"></div>
+        <img src="/assets/trash-2.svg" alt="trash_icon" class="trash-icon">
+    </div>
+</div>
